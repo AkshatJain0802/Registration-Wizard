@@ -1,34 +1,31 @@
-#🧙‍♂️ Registration Wizard (Level 2)
+# 🧙‍♂️ Registration Wizard (Level 2)
 
-A modern multi-step onboarding form built with React, featuring real-time validation, controlled components, and improved user experience.
+A modern multi-step onboarding form built with **React**, featuring real-time validation, controlled components, and an improved user experience.
 
-###🚀 Features
+---
 
-*3-Step Form (Personal Info → Account Details → Review)
-*Controlled Components using useState
-*Real-time validation (Email, Password, Confirm Password)
-*Regex-based email validation
-*Disabled "Next" button until valid
-*Show/Hide password toggle
-*Progress bar indicator
-*Review screen before submission
-*Success confirmation screen
+### 🚀 Features
+* **3-Step Form:** Personal Info → Account Details → Review.
+* **Controlled Components:** Managed via `useState`.
+* **Real-time Validation:** Email, Password, and Confirm Password checks.
+* **Regex-based:** Secure email validation patterns.
+* **Smart UI:** "Next" button remains disabled until fields are valid.
+* **Security:** Show/Hide password toggle included.
+* **Feedback:** Progress bar indicator and success confirmation screen.
 
-###🛠 Tech Stack
+### 🛠 Tech Stack
+* **Frontend:** React (Functional Components)
+* **State Management:** React Hooks (`useState`, `useEffect`)
+* **Styling:** CSS3 (Custom styling)
+* **Logic:** Regex for validation
 
-*React (Functional Components)
-*React Hooks (useState, useEffect)
-*CSS3 (Custom styling)
-*Regex for validation
+### 📁 Project Structure
 
-###📁 Project Structure
-
-src/                            <br>
- ├── components/                <br>
- ├── RegistrationWizard.jsx     <br>
- ├── App.jsx                    <br>
- └── styles.css                 <br>
-
+src/                           <br>
+ ├── components/               <br>
+ ├── RegistrationWizard.jsx    <br>
+ ├── App.jsx                   <br>
+ └── styles.css                <br>
 
 ###▶️ Run Locally
 
