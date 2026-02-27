@@ -29,5 +29,5 @@ src/                           <br>
 
 ###▶️ Run Locally
 
-*npm install
-*npm run dev
+* npm install
+* npm run dev
